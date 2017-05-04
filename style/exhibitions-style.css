@@ -1,0 +1,65 @@
+.socialmedia {
+	margin-left: 50px;
+}
+.socialmedia img {
+	height: 30px !important;
+	width: 30px !important;
+}
+.printfest {
+	margin-left: 50px;
+}
+.printfest img {
+	height: 50px !important;
+	width: 50px !important;
+}
+
+.div_gallery {
+		margin-left: 50px;
+}
+
+.div_gallery img{
+		height: 95% !important;
+}
+.gallery {
+   padding-top: 28px;
+}
+
+.gallery h3, h4 {
+	letter-spacing: 5px;
+}
+
+.gallery table{
+border-collapse: collapse;
+}
+
+.gallery table tr td {
+	vertical-align: center;
+	text-align: center;
+	padding:0; 
+	margin:0;
+}
+ 
+.gallery img {
+    height: 190px;
+	padding:0; 
+	margin:0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+	    box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+}
+ 
+.gallery img:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+ 
+    -webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+}

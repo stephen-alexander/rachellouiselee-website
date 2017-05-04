@@ -1,0 +1,308 @@
+* {margin: 0; padding: 0;}
+
+h1{
+	font-family: Arial;
+	font-size: 35px;
+	font-weight: 200;
+	color: #151515;
+	text-align: center;
+}
+
+h1 a{
+	font-weight: 200;
+	color: #151515;
+	text-decoration: none;
+}
+
+h2{
+	font-family: Arial;
+	font-size: 20px;
+	font-weight: 300;
+	color: #565656;
+	text-align: center;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	padding-left: 53px;
+	color: #565656;
+}
+
+h3:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -160px; 
+  height: 160px; 
+  visibility: hidden; 
+}
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	padding-left: 53px;
+	color: #565656;
+}
+
+.menu-block-bottom{
+	margin-bottom: 40px;
+}
+
+.menu-block-item{
+	margin-bottom: 20px;
+}
+
+.menu-block-sub-item{
+	margin-bottom: 10px;
+}
+
+@media screen and (min-width: 1101px) 
+{
+	body {
+		background-color: #FFFFFF;
+		margin-top: 186px;
+	}
+	
+	p{
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	font-weight: 300;
+	color: #565656;
+	padding-left: 53px;
+	}
+
+	p1{
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 17px;
+		text-align: right;
+		font-weight: 300;
+		color: #565656;
+		float: right;
+	}
+
+	.content {
+		width: 1100px;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+
+	.content-row {
+	  width: 1100px;;
+	}
+
+	.content-column-menu {
+	  overflow: hidden;
+	  float: left;
+	  min-height: 1px;
+	  width: 25%;
+	}
+
+	.content-column-content {
+	  overflow: hidden;
+	  float: left;
+	  min-height: 1px;
+	  width: 75%;
+	}
+
+	.banner {
+		background-color: #FFFFFF;
+		position: fixed;
+		top: 0px;
+	}
+
+	.banner img {
+		width: 1100px;
+	}
+
+	.banner a {
+		text-decoration: none;
+	}
+	
+	.nav-menu {
+		display: none;
+	}
+
+	.sidebar ul li a{
+		letter-spacing: 5px;
+		font-family: Arial;
+		font-size: 20px;
+		font-weight: 300;
+		text-decoration: none;
+		color: #151515;
+	}
+
+	.sidebar ul li ul li a{
+		font-family: Arial;
+		font-size: 18px;
+		font-weight: 300;
+		text-decoration: none;
+		color: #151515;
+	}
+
+	.sidebar ul li a:hover{
+		font-family: Arial;
+		font-size: 20px;
+		font-weight: 600;
+		text-decoration: none;
+		color: #151515;
+	}
+
+	.sidebar ul li ul li a:hover{
+		font-family: Arial;
+		font-size: 18px;
+		font-weight: 600;
+		text-decoration: none;
+		color: #151515;
+	}
+
+	.sidebar {
+	   width: 200px;
+	   height: 100%;
+	   position: fixed;
+		top: 160px;
+		padding-top: 30px;
+	   padding-left: 10px;
+	}
+
+	.homepage {
+		width: 100%;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 1100px) 
+{
+	body {
+    background-color: #FFFFFF;
+    }
+	
+	p{
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 3em;
+		font-weight: 300;
+		line-height: 1.2;
+		color: #565656;
+	}
+
+	p1{
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 3em;
+		text-align: right;
+		font-weight: 300;
+		color: #565656;
+		float: right;
+	}
+	
+	.content {
+	}
+
+	.content-row {
+	}
+
+	.content-column-menu {
+	
+	}
+
+	.content-column-content {
+		height: 100%;
+		margin: 15px;
+		overflow: hidden;
+	}
+
+	.banner {
+		background-color: #FFFFFF;
+	}
+
+	.banner img {
+		width: 100%;
+	}
+
+	.banner a {
+		text-decoration: none;
+	}
+	
+	.logo {
+		display: inline-block;
+		margin: 20px;
+	}
+	
+	.nav-menu {
+		display: inline-block;
+		width: 100%;
+        height: 100%;
+	}
+	
+	.nav-trigger{
+		font-size: 80px; 
+		cursor:pointer;
+		margin: 20px;
+		float: right;
+		display: inline-block;
+	}
+	
+	.nav-container{
+		overflow: hidden;
+	}
+	
+	.nav-title{
+		display: inline-block;
+		margin-top: 39px;
+		margin-left: 20px;
+		letter-spacing: 5px;
+		font-family: Arial;
+		font-size: 60px;
+		font-weight: 300;
+		text-decoration: none;
+		color: #151515;
+		white-space: nowrap;
+	}
+
+	.sidebar ul li a{
+		letter-spacing: 5px;
+		font-family: Arial;
+		font-size: 60px;
+		font-weight: 300;
+		text-decoration: none;
+		color: #151515;
+		white-space: nowrap;
+	}
+
+	.sidebar ul li ul li a{
+		font-family: Arial;
+		font-size: 50px;
+		font-weight: 300;
+		text-decoration: none;
+		color: #151515;
+		white-space: nowrap;
+	}
+
+	.sidebar {
+		background-color: rgba(255, 255, 255, 0.9);
+		text-align: center;
+		width: 0px;
+		position: absolute;
+		z-index: 1;
+		right: 0;
+		overflow-x: hidden;
+		transition: 0.5s;
+	}
+	
+	.fb-like{
+		display: none !important;
+	}
+	
+	.fb_iframe_widget_fluid {
+        display: none;
+	}
+
+	.fb_iframe_widget {
+        display: none;
+    }
+
+	.homepage {
+		width: 100%;
+		text-align: center;
+	}
+}

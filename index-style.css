@@ -1,0 +1,17 @@
+ .gallery img {
+ padding-top: 15px;
+    width: 100%;
+}
+
+.horizontal div {
+    float: left;
+    width: 31%;
+    border-style: none;
+	margin-right: 15px;
+}
+
+.center-cropped {
+  object-fit: cover; /* Do not scale the image */
+  object-position: center; /* Center the image within the element */
+  height: 200px;
+}
