@@ -33,6 +33,7 @@
 ?>
 <html>
   <head>
+    <meta name="google-site-verification" content="ejgWJLk33avN5o1xL9nXR7bLSrUsUVmkBzbO_xaG5fg" />
     <link rel="stylesheet" type="text/css" href="<?php echo $config['style'];?>"/>
     <link href="<?php echo $config['lightbox'].'/css/lightbox.css';?>" rel="stylesheet" />
     <script src="<?php echo $config['lightbox'].'/js/jquery-1.11.0.min.js';?>"></script>
